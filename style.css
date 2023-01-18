@@ -1,3 +1,7 @@
+*{
+  outline: 1px solid red;
+}
+
 .page {
   font-family: 'Inter', Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -224,4 +228,291 @@
 
 .quote {
   height: 2000px;
+}
+
+
+
+/* Блок Merckx*/
+
+.merckx {
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 60px 120px 60px 120px;
+  box-sizing:border-box
+}
+
+.merckx__container {
+  max-width: 1200px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.merckx__image {
+  max-width: 650px;
+  width: 100%;
+
+  aspect-ratio: 65 / 46;
+  object-fit: contain;
+
+}
+
+.merckx__quote-container {
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.merckx__quote {
+  margin: 0;
+
+  max-width: 470px;
+  width: 100%;
+
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -.5px;
+}
+
+.merckx__author-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px
+}
+
+.merckx__quote-author {
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.merckx__quote-author-subline {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #E5E5E5;
+
+  opacity: .7;
+}
+
+
+/* Блок Highway */
+
+.highway {
+  position: relative;
+
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 60px 0 60px 120px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.highway__title {
+  margin: 0 0 50px 0;
+  
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: -.5px;
+}
+
+.highway__description {
+  margin: 0 0 80px 0;
+  
+  max-width: 460px;
+  width: 100%;
+  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  
+  color: #E5E5E5;
+  
+  opacity: .7;
+}
+
+.highway__images {
+  position: relative;
+  margin: 0 0 50px 0;
+  
+  display: flex;
+  gap: 40px;
+
+}
+
+.highway__images::after {
+  content: "";
+
+  width: 100px;
+  height: 40px;
+
+  background-image: url(./images/highway__image-icon.svg);
+  background-size: 100%;
+
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  z-index: 1;
+}
+
+.highway__image {
+  max-width: 650px;
+  width: 100%;
+
+  aspect-ratio: 13 / 8;
+  object-fit: contain;
+}
+
+.highway__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.highway__button-left {
+  width: 50px;
+  height: 50px;
+
+  background-image: url(./images/highway__button-left.svg);
+  background-size: cover;
+
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+  transition: .3s ease-out;
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -ms-transition: .3s ease-out;
+  -o-transition: .3s ease-out; 
+}
+
+.highway__button-left:hover {
+opacity: .6;
+
+transition: .2s ease-in;
+-webkit-transition: .2s ease-in;
+-moz-transition: .2s ease-in;
+-ms-transition: .2s ease-in;
+-o-transition: .2s ease-in;
+}
+
+
+.highway__button-right {
+  width: 50px;
+  height: 50px;
+
+  background-image: url(./images/highway__buttom-right.svg);
+  background-size: cover;
+
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  
+  transition: .3s ease-out;
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -ms-transition: .3s ease-out;
+  -o-transition: .3s ease-out; 
+}
+
+.highway__button-right:hover {
+opacity: .6;
+
+transition: .2s ease-in;
+-webkit-transition: .2s ease-in;
+-moz-transition: .2s ease-in;
+-ms-transition: .2s ease-in;
+-o-transition: .2s ease-in;
+}
+
+/* Блок Cycles */
+
+.cycles {
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 60px 120px;
+
+  box-sizing: border-box;
+}
+.cycles__header {
+  display: flex;
+  align-items:flex-end;
+
+  margin: 0 0 120px 0;
+}
+.cycles__title {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+}
+.cycles__links {
+  /* !проверить по пиксель перфект отступы  */
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  
+  display: flex;
+  gap: 40px;
+  
+  margin-left: auto;
+}
+.cycles__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  
+  text-decoration: none;
+
+  color:#fff
+  /* ! цвета у 2 и 3 - е5е5е5 */
+}
+.cycles__images {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  
+  display: flex;
+  gap: 30px;
+}
+.cycles__image {
+  padding: 0;
+  margin: 0;
+  border: 20px solid #f4f4f4;
+  border-radius: 20px;
+  background-color:#f4f4f4;
+
+  max-width: 380px;
+  width: 100%;
+
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
 }

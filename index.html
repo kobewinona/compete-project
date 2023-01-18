@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="pages/index.css" as="style">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="page">
   <header class="header">
     <nav class="header__menu">
@@ -39,8 +41,70 @@
         </div>
         <div class="cover__illustration"></div>
       </div>
-    </section>
-    <section class="quote"></section>
+
+      <!-- Блок Merckx -->
+
+      <section class="merckx">
+        <div class="merckx__container">
+          <img src="./images/merckx__image.jpg" alt="Фотография велопутешествия на фоне гор" class="merckx__image">
+          <blockquote class="merckx__quote-container">
+            <h2 class="merckx__quote">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+            <div class="merckx__author-wrap">
+              <p class="merckx__quote-author">Эдди Меркс</p>
+              <p class="merckx__quote-author-subline">Велогонщик</p>
+            </div>
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- Блок Highway -->
+
+      <section class="highway">
+        <h2 class="highway__title">Шоссе</h2>
+        <p class="highway__description">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то
+          горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+        <div class="highway__images">
+          <!-- todo сделать альты -->
+          <img src="./images/highway__image-first.jpg" alt="" class="highway__image">
+          <img src="./images/highway__image-second.jpg" alt="" class="highway__image">
+        </div>
+        <div class="highway__buttons">
+          <button class="highway__button-left" type="button"></button>
+          <button class="highway__button-right" type="button"></button>
+        </div>
+      </section>
+
+      <!-- Блок Cycles -->
+
+      <section class="cycles">
+        <div class="cycles__header">
+          <h2 class="cycles__title">Велосипеды</h2>
+          <ul class="cycles__links">
+            <li><a class="cycles__link" href="#">Шоссе</a></li>
+            <li><a class="cycles__link" href="#">Грэвел</a></li>
+            <li><a class="cycles__link" href="#">TT</a></li>
+          </ul>
+        </div>
+        <div class="cycles__images">
+          <!-- todo --------- сделать альты ------------ -->
+          <!-- todo реализовать картинки без марджинов  -->
+          <!-- todo сделать cтиль подписей -->
+          <figure>
+            <img class="cycles__image" src='./images/cycles__image-cervelo.jpg' alt=''>
+            <figcaption>Cervelo Caledonia-5</figcaption>
+          </figure>
+          <figure>
+            <img class="cycles__image" src='./images/cycles__image-cannondale.jpg' alt=''>
+            <figcaption>Cannondale Systemsix Himod</figcaption>
+          </figure>
+          <figure>
+            <img class="cycles__image" src='./images/cycles__image-trek.jpg' alt=''>
+            <figcaption>Trek Domane SL-7</figcaption>
+          </figure>
+        </div>
+      </section>
+
   </main>
 </body>
+
 </html>
