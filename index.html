@@ -64,9 +64,9 @@
         <p class="highway__description">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то
           горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
         <div class="highway__images">
-          <!-- todo сделать альты -->
-          <img src="./images/highway__image-first.jpg" alt="" class="highway__image">
-          <img src="./images/highway__image-second.jpg" alt="" class="highway__image">
+          <img src="./images/highway__image-first.jpg" alt="Фотография дороги на фоне гор" class="highway__image">
+          <img src="./images/highway__image-second.jpg"
+            alt="Фотография велосипедиста путешествующего по грунтовой дороге в лесу" class="highway__image">
         </div>
         <div class="highway__buttons">
           <button class="highway__button-left" type="button"></button>
@@ -80,31 +80,40 @@
         <div class="cycles__header">
           <h2 class="cycles__title">Велосипеды</h2>
           <ul class="cycles__links">
-            <li><a class="cycles__link" href="#">Шоссе</a></li>
+            <li><a class="cycles__link cycles__link_active" href="#">Шоссе</a></li>
             <li><a class="cycles__link" href="#">Грэвел</a></li>
             <li><a class="cycles__link" href="#">TT</a></li>
           </ul>
         </div>
         <div class="cycles__images">
-          <!-- todo --------- сделать альты ------------ -->
-          <!-- todo реализовать картинки без марджинов  -->
-          <!-- todo сделать cтиль подписей -->
-          <figure>
-            <img class="cycles__image" src='./images/cycles__image-cervelo.jpg' alt=''>
-            <figcaption>Cervelo Caledonia-5</figcaption>
+          <figure class="cycles__image-box">
+            <img class="cycles__image" src='./images/cycles__image-cervelo.jpg'
+              alt='Картинка велосипеда Cervelo Caledonia-5'>
+            <figcaption class="cycles__image-caption">Cervelo Caledonia-5</figcaption>
           </figure>
-          <figure>
-            <img class="cycles__image" src='./images/cycles__image-cannondale.jpg' alt=''>
-            <figcaption>Cannondale Systemsix Himod</figcaption>
+          <figure class="cycles__image-box">
+            <img class="cycles__image" src='./images/cycles__image-cannondale.jpg'
+              alt='Картинка велосипеда Cannondale Systemsix Himod'>
+            <figcaption class="cycles__image-caption">Cannondale Systemsix Himod</figcaption>
           </figure>
-          <figure>
-            <img class="cycles__image" src='./images/cycles__image-trek.jpg' alt=''>
-            <figcaption>Trek Domane SL-7</figcaption>
+          <figure class="cycles__image-box">
+            <img class="cycles__image" src='./images/cycles__image-trek.jpg' alt='Картинка велосипеда Trek Domane SL-7'>
+            <figcaption class="cycles__image-caption">Trek Domane SL-7</figcaption>
           </figure>
         </div>
       </section>
 
   </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="sending">
+      <h2 class="sending__title">Подпишитесь на рассылку —</h2>
+      <form action="#" method="post" class="sending__form">
+        <input type="text" name="sending-email" class="sending__input" placeholder="Ваш e-mail">
+      </form>
+      <p class="sending__copyright">&copy; Road Club 2021</p>
+    </div>
+  </footer>
 </body>
 
 </html>
