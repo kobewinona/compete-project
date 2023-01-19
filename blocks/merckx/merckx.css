@@ -4,5 +4,23 @@
 
   margin: 0 auto;
   padding: 120px 120px 60px;
-  box-sizing:border-box
+  box-sizing:border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .merckx {
+    padding: 120px 80px 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .merckx {
+    padding: 120px 60px 60px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .merckx {
+    padding: 120px 18px 60px;
+  }
 }

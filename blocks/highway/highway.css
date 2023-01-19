@@ -10,3 +10,21 @@
   box-sizing: border-box;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1280px) {
+  .highway {
+    padding: 60px 80px 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .highway {
+    padding: 60px 60px 150px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .highway {
+    padding: 40px 18px 210px;
+  }
+}

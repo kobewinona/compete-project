@@ -6,3 +6,10 @@
   line-height: 60px;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 465px) {
+  .cycles__title {
+      font-size: 32px;
+      line-height: 40px;
+  }
+  }

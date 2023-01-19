@@ -49,8 +49,10 @@
 @import url('../blocks/cycles/__link/cycles__link.css');
 @import url('../blocks/cycles/__link_active/cycles__link_active.css');
 @import url('../blocks/cycles/__images/cycles__images.css');
+@import url(../blocks/cycles/__image-box/cycles__image-box.css);
 @import url('../blocks/cycles/__image/cycles__image.css');
 @import url('../blocks/cycles/__image-caption/cycles__image-caption.css');
+@import url(../blocks/cycles/__form-list/cycles__form-list.css);
 
 /* Training */
 @import url('../blocks/training/training.css');

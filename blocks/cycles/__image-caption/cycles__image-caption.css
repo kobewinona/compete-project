@@ -5,3 +5,14 @@
 
   margin-left: 6px;
 }
+
+@media screen and (max-width: 675px) {
+  .cycles__image-caption {
+    text-align: center;
+
+    margin: 0;
+
+    font-size: 14px;
+    line-height: 18px;
+  }
+  }

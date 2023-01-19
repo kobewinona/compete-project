@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="pages/index.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="page">
   <header class="header">
     <nav class="header__menu">
@@ -20,7 +22,7 @@
     </nav>
   </header>
   <main class="content">
-    <section class="lead">
+    <!-- <section class="lead">
       <div class="lead__container">
         <h1 class="lead__title">Шоссе, ТТ и Грэвел</h1>
         <p class="lead__subtitle">Триатлонные старты, горные серпантины или грейвел
@@ -34,12 +36,12 @@
         <img class="lead__picture" src="images/lead-bike.webp" alt="Фотография модели Cannondale Systemsix">
       </div>
       <div class="lead__illustration"></div>
-    </section>
+    </section> -->
     <section class="merckx">
       <div class="merckx__container">
         <img class="merckx__image" src="./images/merckx__image.webp" alt="Фотография велопутешествия на фоне гор">
         <blockquote class="merckx__quote-container">
-          <h2 class="merckx__quote">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+          <h2 class="merckx__quote">«Катайся много или мало, долго или коротко, как хочешь - но&#160;катайся»</h2>
           <div class="merckx__author-wrap">
             <p class="merckx__quote-author">Эдди Меркс</p>
             <p class="merckx__quote-author-subline">Велогонщик</p>
@@ -70,6 +72,13 @@
           <li><a class="cycles__link" href="#">TT</a></li>
         </ul>
       </div>
+      <form>
+        <select name="cycles" class="cycles__form-list">
+          <option class="cycles__form-item" value="haiway">Шоссе</option>
+          <option class="cycles__form-item" value="gravel">Грэвел</option>
+          <option class="cycles__form-item" value="tt">TT</option>
+        </select>
+      </form>
       <div class="cycles__images">
         <figure class="cycles__image-box">
           <img class="cycles__image" src="./images/cycles__image-cervelo.webp"
@@ -87,7 +96,7 @@
         </figure>
       </div>
     </section>
-    <section id="training-id" class="training">
+    <!-- <section id="training-id" class="training">
       <div class="training__container">
         <h2 class="training__title">Тренировки</h2>
         <div class="training__text-container">
@@ -102,7 +111,7 @@
         </div>
       </div>
       <img class="training__picture" src="images/road.webp" alt="Фотография дороги">
-    </section>
+    </section> -->
   </main>
   <footer class="footer">
     <div class="footer__container">
@@ -114,5 +123,5 @@
     </div>
   </footer>
 </body>
-</html>
 
+</html>

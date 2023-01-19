@@ -1,0 +1,16 @@
+.cycles__image-box {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 675px) {
+  .cycles__image-box {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .cycles__image-box:not(:nth-of-type(1)) {
+    display: none;
+  }
+  }

@@ -9,3 +9,24 @@
   line-height: 44px;
   letter-spacing: -.5px;
 }
+
+@media screen and (max-width: 1023px) {
+  .merckx__quote {
+  font-size: 23px;
+  line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .merckx__quote {
+    font-size: 34px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .merckx__quote {
+  font-size: 23px;
+  line-height: 29px;
+  }
+}
