@@ -1,0 +1,22 @@
+.highway__images {
+  position: relative;
+  margin: 0 0 50px 0;
+
+  display: flex;
+  gap: 40px;
+}
+
+.highway__images::after {
+  content: "";
+
+  width: 100px;
+  height: 40px;
+
+  background-image: url(./images/highway__image-icon.svg);
+  background-size: 100%;
+
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  z-index: 1;
+}

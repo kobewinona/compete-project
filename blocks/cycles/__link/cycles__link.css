@@ -1,0 +1,27 @@
+.cycles__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+
+
+  text-decoration: none;
+  color:#e5e5e5;
+
+  opacity: .7;
+
+  transition: .3s ease-out;
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -ms-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+}
+
+.cycles__link:hover {
+  opacity: .5;
+
+  transition: .2s ease-in;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -ms-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+}

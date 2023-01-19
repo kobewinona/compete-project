@@ -1,0 +1,11 @@
+.merckx__quote {
+  margin: 0;
+
+  max-width: 470px;
+  width: 100%;
+
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -.5px;
+}

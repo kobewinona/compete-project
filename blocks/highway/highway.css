@@ -1,0 +1,12 @@
+.highway {
+  position: relative;
+
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 60px 0 60px 120px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}

@@ -1,0 +1,8 @@
+.merckx {
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 120px 120px 60px;
+  box-sizing:border-box
+}

@@ -1,0 +1,5 @@
+.merckx__author-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px
+}

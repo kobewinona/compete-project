@@ -1,0 +1,14 @@
+.cycles__images {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+
+  display: flex;
+  gap: 30px;
+}
+
+.cycles__image-box {
+  margin: 0;
+}

@@ -1,0 +1,31 @@
+.highway__button-left {
+  width: 50px;
+  height: 50px;
+
+  background-image: url(./images/highway__button-left.svg);
+  background-size: cover;
+
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+  transition: .3s ease-out;
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -ms-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+}
+
+.highway__button-left:hover {
+  opacity: .6;
+
+  transition: .2s ease-in;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -ms-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+}
