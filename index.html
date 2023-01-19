@@ -15,32 +15,28 @@
   <header class="header">
     <nav class="header__menu">
       <ul class="header__list">
-        <li><a href="#" class="header__link">Покрытия и градиенты</a></li>
-        <li><a href="#" class="header__link">Велосипеды</a></li>
-        <li><a href="#" class="header__link">Тренировки</a></li>
+        <li><a class="header__link" href="#highway-id">Покрытия и градиенты</a></li>
+        <li><a class="header__link" href="#cycles-id">Велосипеды</a></li>
+        <li><a class="header__link" href="#training-id">Тренировки</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <section class="cover">
-      <div class="cover__main-container">
-        <div class="cover__secondary-container">
-          <h1 class="cover__title">Шоссе, ТТ и Грэвел</h1>
-          <p class="cover__subtitle">Триатлонные старты, горные серпантины или грейвел
-            заезды по живописным маршрутам – нужно только определиться с выбором
-            велосипеда и отправиться в путь.
-          </p>
-          <button class="cover__button">Подробнее</button>
-          <p class="cover__picture-caption">Cannondale Systemsix</p>
-        </div>
-
-        <div class="cover__picture-position">
-          <div class="cover__picture-container">
-            <img class="cover__picture" src="images/cover-bike.webp" alt="Фотография модели Cannondale Systemsix">
-          </div>
-        </div>
-        <div class="cover__illustration"></div>
+  <main class="content">
+    <section class="lead">
+      <div class="lead__container">
+        <h1 class="lead__title">Шоссе, ТТ и Грэвел</h1>
+        <p class="lead__subtitle">Триатлонные старты, горные серпантины или грейвел
+          заезды по живописным маршрутам – нужно только определиться с выбором
+          велосипеда и отправиться в путь.
+        </p>
+        <button class="lead__button">Подробнее</button>
+        <p class="lead__picture-caption">Cannondale Systemsix</p>
       </div>
+      <div class="lead__picture-container">
+        <img class="lead__picture" src="images/lead-bike.webp" alt="Фотография модели Cannondale Systemsix">
+      </div>
+      <div class="lead__illustration"></div>
+    </section>
 
       <!-- Блок Merckx -->
 
@@ -59,7 +55,7 @@
 
       <!-- Блок Highway -->
 
-      <section class="highway">
+      <section id="highway-id" class="highway">
         <h2 class="highway__title">Шоссе</h2>
         <p class="highway__description">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то
           горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
@@ -76,7 +72,7 @@
 
       <!-- Блок Cycles -->
 
-      <section class="cycles">
+      <section id="cycles-id" class="cycles">
         <div class="cycles__header">
           <h2 class="cycles__title">Велосипеды</h2>
           <ul class="cycles__links">
@@ -102,11 +98,28 @@
           </figure>
         </div>
       </section>
-
+      <section id="training-id" class="training">
+        <div class="training__container">
+          <h2 class="training__title">Тренировки</h2>
+          <div class="training__text-container">
+            <p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться
+              сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также
+              это приложение позволит построить тренировочный план.
+            </p>
+            <div class="training__link-container">
+              <ul class="training__list">
+                <li><a class="training__link" href="https://www.strava.com">Strava</a></li>
+                <li><a class="training__link" href="https://www.komoot.com">Komoot</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <img class="training__picture" src="images/road.webp" alt="">
+      </section>
   </main>
 
   <!-- Footer -->
-  
+
   <footer class="footer">
     <h2 class="footer__title">Подпишитесь на рассылку —</h2>
     <form class="footer__form" action="" method="get">
@@ -116,3 +129,4 @@
   </footer>
 </body>
 </html>
+
