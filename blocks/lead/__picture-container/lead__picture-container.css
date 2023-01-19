@@ -1,0 +1,11 @@
+.lead__picture-container {
+  width: 60%;
+  min-width: 610px;
+  max-width: 810px;
+  min-height: 777px;
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,8 @@
+.training__text-container {
+  min-height: 460px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 182px;
+}

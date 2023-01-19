@@ -1,0 +1,31 @@
+.footer__email {
+  width: 100%;
+  min-height: 50px;
+  box-sizing: border-box;
+
+  color: #fff;
+
+  background: none;
+
+  padding: 11px 20px;
+  border: none;
+}
+
+.footer__email::placeholder {
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+
+  opacity: .7;
+
+  transition: .4s ease-in;
+  -webkit-transition: .4s ease-in;
+  -moz-transition: .4s ease-in;
+  -ms-transition: .4s ease-in;
+  -o-transition: .4s ease-in;
+}
+
+.footer__email:focus {
+  outline: 1px solid #7d7d7d;
+}

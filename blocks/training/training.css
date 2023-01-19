@@ -1,0 +1,11 @@
+.training {
+  max-width: 1200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+
+  margin: 0 auto;
+  padding: 150px 120px 120px 120px;
+}

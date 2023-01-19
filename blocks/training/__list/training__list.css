@@ -1,0 +1,14 @@
+.training__list {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,13 @@
+.lead {
+  width: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+
+  position: relative;
+
+  margin: 0 auto;
+}

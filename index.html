@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compete-project</title>
   <link rel="stylesheet" href="vendor/normalize.css">
-  <link rel="stylesheet" href="pages/index.css" as="style">
+  <link rel="stylesheet" href="pages/index.css">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="page">
   <header class="header">
     <nav class="header__menu">
@@ -37,95 +35,83 @@
       </div>
       <div class="lead__illustration"></div>
     </section>
-
-      <!-- Блок Merckx -->
-
-      <section class="merckx">
-        <div class="merckx__container">
-          <img src="./images/merckx__image.jpg" alt="Фотография велопутешествия на фоне гор" class="merckx__image">
-          <blockquote class="merckx__quote-container">
-            <h2 class="merckx__quote">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
-            <div class="merckx__author-wrap">
-              <p class="merckx__quote-author">Эдди Меркс</p>
-              <p class="merckx__quote-author-subline">Велогонщик</p>
-            </div>
-          </blockquote>
-        </div>
-      </section>
-
-      <!-- Блок Highway -->
-
-      <section id="highway-id" class="highway">
-        <h2 class="highway__title">Шоссе</h2>
-        <p class="highway__description">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то
-          горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
-        <div class="highway__images">
-          <img src="./images/highway__image-first.jpg" alt="Фотография дороги на фоне гор" class="highway__image">
-          <img src="./images/highway__image-second.jpg"
-            alt="Фотография велосипедиста путешествующего по грунтовой дороге в лесу" class="highway__image">
-        </div>
-        <div class="highway__buttons">
-          <button class="highway__button-left" type="button"></button>
-          <button class="highway__button-right" type="button"></button>
-        </div>
-      </section>
-
-      <!-- Блок Cycles -->
-
-      <section id="cycles-id" class="cycles">
-        <div class="cycles__header">
-          <h2 class="cycles__title">Велосипеды</h2>
-          <ul class="cycles__links">
-            <li><a class="cycles__link cycles__link_active" href="#">Шоссе</a></li>
-            <li><a class="cycles__link" href="#">Грэвел</a></li>
-            <li><a class="cycles__link" href="#">TT</a></li>
+    <section class="merckx">
+      <div class="merckx__container">
+        <img class="merckx__image" src="./images/merckx__image.webp" alt="Фотография велопутешествия на фоне гор">
+        <blockquote class="merckx__quote-container">
+          <h2 class="merckx__quote">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+          <div class="merckx__author-wrap">
+            <p class="merckx__quote-author">Эдди Меркс</p>
+            <p class="merckx__quote-author-subline">Велогонщик</p>
+          </div>
+        </blockquote>
+      </div>
+    </section>
+    <section id="highway-id" class="highway">
+      <h2 class="highway__title">Шоссе</h2>
+      <p class="highway__description">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то
+        горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+      <div class="highway__images">
+        <img class="highway__image" src="./images/highway__image-first.webp" alt="Фотография дороги на фоне гор">
+        <img class="highway__image" src="./images/highway__image-second.webp"
+          alt="Фотография велосипедиста путешествующего по грунтовой дороге в лесу">
+      </div>
+      <div class="highway__buttons">
+        <button class="highway__button-left" type="button"></button>
+        <button class="highway__button-right" type="button"></button>
+      </div>
+    </section>
+    <section id="cycles-id" class="cycles">
+      <div class="cycles__header">
+        <h2 class="cycles__title">Велосипеды</h2>
+        <ul class="cycles__links">
+          <li><a class="cycles__link cycles__link_active" href="#">Шоссе</a></li>
+          <li><a class="cycles__link" href="#">Грэвел</a></li>
+          <li><a class="cycles__link" href="#">TT</a></li>
+        </ul>
+      </div>
+      <div class="cycles__images">
+        <figure class="cycles__image-box">
+          <img class="cycles__image" src="./images/cycles__image-cervelo.webp"
+            alt="Картинка велосипеда Cervelo Caledonia-5">
+          <figcaption class="cycles__image-caption">Cervelo Caledonia-5</figcaption>
+        </figure>
+        <figure class="cycles__image-box">
+          <img class="cycles__image" src="./images/cycles__image-cannondale.webp"
+            alt="Картинка велосипеда Cannondale Systemsix Himod">
+          <figcaption class="cycles__image-caption">Cannondale Systemsix Himod</figcaption>
+        </figure>
+        <figure class="cycles__image-box">
+          <img class="cycles__image" src="./images/cycles__image-trek.webp" alt="Картинка велосипеда Trek Domane SL-7">
+          <figcaption class="cycles__image-caption">Trek Domane SL-7</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="training-id" class="training">
+      <div class="training__container">
+        <h2 class="training__title">Тренировки</h2>
+        <div class="training__text-container">
+          <p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться
+            сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также
+            это приложение позволит построить тренировочный план.
+          </p>
+          <ul class="training__list">
+            <li><a class="training__link" href="https://www.strava.com">Strava</a></li>
+            <li><a class="training__link" href="https://www.komoot.com">Komoot</a></li>
           </ul>
         </div>
-        <div class="cycles__images">
-          <figure class="cycles__image-box">
-            <img class="cycles__image" src='./images/cycles__image-cervelo.jpg'
-              alt='Картинка велосипеда Cervelo Caledonia-5'>
-            <figcaption class="cycles__image-caption">Cervelo Caledonia-5</figcaption>
-          </figure>
-          <figure class="cycles__image-box">
-            <img class="cycles__image" src='./images/cycles__image-cannondale.jpg'
-              alt='Картинка велосипеда Cannondale Systemsix Himod'>
-            <figcaption class="cycles__image-caption">Cannondale Systemsix Himod</figcaption>
-          </figure>
-          <figure class="cycles__image-box">
-            <img class="cycles__image" src='./images/cycles__image-trek.jpg' alt='Картинка велосипеда Trek Domane SL-7'>
-            <figcaption class="cycles__image-caption">Trek Domane SL-7</figcaption>
-          </figure>
-        </div>
-      </section>
-      <section id="training-id" class="training">
-        <div class="training__container">
-          <h2 class="training__title">Тренировки</h2>
-          <div class="training__text-container">
-            <p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться
-              сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также
-              это приложение позволит построить тренировочный план.
-            </p>
-            <div class="training__link-container">
-              <ul class="training__list">
-                <li><a class="training__link" href="https://www.strava.com">Strava</a></li>
-                <li><a class="training__link" href="https://www.komoot.com">Komoot</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <img class="training__picture" src="images/road.webp" alt="">
-      </section>
+      </div>
+      <img class="training__picture" src="images/road.webp" alt="Фотография дороги">
+    </section>
   </main>
-
-  <!-- Footer -->
-
   <footer class="footer">
-    <h2 class="footer__title">Подпишитесь на рассылку —</h2>
-    <form class="footer__form" action="" method="get">
-      <input class="footer__email" type="email" name="email" placeholder="Ваш e-mail">
-    </form>
-    <p class="footer__copyright">&copy; БЭМ на диване</p>
+    <div class="footer__container">
+      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+      <form class="footer__subscription" action="" method="get">
+        <input class="footer__email" type="email" name="email" placeholder="Ваш e-mail">
+      </form>
+      <p class="footer__copyright">&copy; БЭМ на диване</p>
+    </div>
   </footer>
 </body>
 </html>

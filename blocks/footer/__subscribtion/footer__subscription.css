@@ -1,0 +1,13 @@
+.footer__subscription {
+  max-width: 360px;
+  min-height: 50px;
+  box-sizing: border-box;
+  
+  margin: 50px 0 0 0;
+  border: 1px solid rgba(125, 125, 125, .5);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

@@ -1,0 +1,22 @@
+.lead__picture-caption {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+
+  position: relative;
+
+  margin: 167px 0 0 0;
+}
+
+.lead__picture-caption::after {
+  content: "";
+
+  width: 132px;
+  height: 2px;
+
+  background: #707070;
+
+  position: absolute;
+  top: 8px;
+  left: 224px;
+}

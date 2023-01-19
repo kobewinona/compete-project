@@ -1,0 +1,7 @@
+.training__picture {
+  width: 100%;
+  max-width: 580px;
+  aspect-ratio: 29 / 23;
+
+  object-fit: cover;
+}
