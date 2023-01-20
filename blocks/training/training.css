@@ -1,11 +1,42 @@
 .training {
   max-width: 1200px;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: minmax(284px, 460px) minmax(284px, 580px);
+  grid-template-rows: 60px auto 28px;
+  column-gap: 160px;
 
   margin: 0 auto;
-  padding: 150px 120px 120px 120px;
+  padding: 150px 120px 120px;
+}
+
+@media screen and (max-width: 1280px) {
+  .training {
+    max-width: 1280px;
+
+    column-gap: 80px;
+
+    padding: 80px 80px 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .training {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    padding: 80px 60px 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .training {
+    padding: 60px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .training {
+    padding: 80px 18px 60px;
+  }
 }

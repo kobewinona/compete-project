@@ -16,6 +16,7 @@
     padding: 60px 60px 60px;
   }
 }
+
 @media screen and (max-width: 465px) {
   .cycles {
     padding: 40px 18px 104px;

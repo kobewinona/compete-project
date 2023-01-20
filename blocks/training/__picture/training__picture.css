@@ -3,5 +3,16 @@
   max-width: 580px;
   aspect-ratio: 29 / 23;
 
+  grid-row: 1 / 4;
+  grid-column: 2;
+
   object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  .training__picture {
+    max-width: 100%;
+
+    order: 2;
+  }
 }

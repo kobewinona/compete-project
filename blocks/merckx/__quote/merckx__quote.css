@@ -5,10 +5,10 @@
   width: 100%;
 
   font-weight: 600;
-  font-size: 34px;
-  line-height: 44px;
+  font-size: clamp(23px, 5vw, 34px);
+  line-height: clamp(29px, 6vw, 44px);
   letter-spacing: -.5px;
-}
+/* }
 
 @media screen and (max-width: 1023px) {
   .merckx__quote {
@@ -29,4 +29,4 @@
   font-size: 23px;
   line-height: 29px;
   }
-}
+} */

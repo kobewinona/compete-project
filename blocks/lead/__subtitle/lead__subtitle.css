@@ -8,3 +8,18 @@
 
   opacity: 0.7;
 }
+
+@media screen and (max-width: 930px) {
+  .lead__subtitle {
+    order: 3;
+
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .lead__subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

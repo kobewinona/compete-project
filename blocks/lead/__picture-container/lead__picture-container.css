@@ -1,11 +1,43 @@
 .lead__picture-container {
-  width: 60%;
-  min-width: 610px;
-  max-width: 810px;
+  width: 100%;
+  max-width: 200px;
   min-height: 777px;
 
   position: absolute;
 
   top: 0;
-  right: 0;
+  left: 45.75%;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__picture-container {
+    min-height: 747px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .lead__picture-container {
+    min-height: 677px;
+
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .lead__picture-container {
+    min-height: 777px;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__picture-container {
+    min-height: 677px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .lead__picture-container {
+    left: 18px;
+  }
 }

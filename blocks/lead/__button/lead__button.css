@@ -1,6 +1,6 @@
 .lead__button {
-  min-width: 180px;
-  min-height: 50px;
+  width: 180px;
+  height: 50px;
 
   color: #fff;
   font-weight: 600;
@@ -37,4 +37,14 @@
   -moz-transition: .3s ease-out;
   -ms-transition: .3s ease-out;
   -o-transition: .3s ease-out;
+}
+
+@media screen and (max-width: 930px) {
+  .lead__button {
+    width: 100%;
+    font-size: 13px;
+    line-height: 19px;
+
+    order: 4;
+  }
 }

@@ -20,3 +20,25 @@
 
   padding: 20px 50px;
 }
+
+@media screen and (max-width: 1280px) {
+  .lead__picture {
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .lead__picture {
+    max-width: 284px;
+
+    position: absolute;
+
+    top: 46%;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .lead__picture {
+    max-width: 234px;
+  }
+}

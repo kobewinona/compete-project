@@ -8,5 +8,21 @@
   background-repeat: no-repeat;
   background-size: contain;
 
+  grid-column: 2;
+  grid-row: 1 / -1;
+
   margin-top: 20px;
+}
+
+@media screen and (max-width: 930px) {
+  .lead__illustration {
+    width: 90%;
+    min-width: 254px;
+    aspect-ratio: 127 / 174;
+
+    align-self: flex-end;
+    order: 2;
+
+    margin: 0;
+  }
 }

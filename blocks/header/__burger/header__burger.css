@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) {
+  .header__burger {
+    width: 32px;
+    height: 26px;
+
+    background-color: #333333;
+
+    position: fixed;
+    
+    top: 28px;
+    right: 60px;
+
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .header__burger {
+    width: 22px;
+    height: 16px;
+
+    right: 18px;
+  }
+}
