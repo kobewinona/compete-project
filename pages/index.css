@@ -54,6 +54,10 @@
 @import url('../blocks/cycles/__image/cycles__image.css');
 @import url('../blocks/cycles/__image-caption/cycles__image-caption.css');
 @import url(../blocks/cycles/__form-list/cycles__form-list.css);
+@import url(../blocks/cycles/__slider/cycles__slider.css);
+@import url(../blocks/cycles/__slider-dot/cycles__slider-dot.css);
+@import url(../blocks/cycles/__slider-dot_checked/cycles__slider-dot_checked.css);
+@import url(../blocks/cycles/__slider-dot_near/cycles__slider-dot_near.css);
 
 /* Training */
 @import url('../blocks/training/training.css');

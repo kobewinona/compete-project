@@ -12,7 +12,7 @@
   width: 100px;
   height: 40px;
 
-  background-image: url(./images/highway__image-icon.svg);
+  background-image: url(../../../images/highway__image-icon.svg);
   background-size: 100%;
 
   position: absolute;
@@ -21,6 +21,14 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 1023px) {
+  .highway__images::after {
+    width: 70px;
+    height: 28px;
+
+    bottom: 14px;
+  }
+}
 
 @media screen and (max-width: 1023px) {
   .highway__images {

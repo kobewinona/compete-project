@@ -73,13 +73,13 @@
       </div>
       <form>
         <select name="cycles" class="cycles__form-list">
-          <option class="cycles__form-item" value="haiway">Шоссе</option>
-          <option class="cycles__form-item" value="gravel">Грэвел</option>
-          <option class="cycles__form-item" value="tt">TT</option>
+          <option class="cycles__form-item" value="haiway" id="haiway">Шоссе</option>
+          <option class="cycles__form-item" value="gravel" id="gravel">Грэвел</option>
+          <option class="cycles__form-item" value="tt" id="tt">TT</option>
         </select>
       </form>
       <div class="cycles__images">
-        <figure class="cycles__image-box">
+        <figure class="cycles__image-box cycles__slider-dots">
           <img class="cycles__image" src="./images/cycles__image-cervelo.webp"
             alt="Картинка велосипеда Cervelo Caledonia-5">
           <figcaption class="cycles__image-caption">Cervelo Caledonia-5</figcaption>
@@ -94,6 +94,11 @@
           <figcaption class="cycles__image-caption">Trek Domane SL-7</figcaption>
         </figure>
       </div>
+      <ul class="cycles__slider">
+        <li class="cycles__slider-dot cycles__slider-dot_checked"></li>
+        <li class="cycles__slider-dot cycles__slider-dot_near"></li>
+        <li class="cycles__slider-dot"></li>
+      </ul>
     </section>
     <section id="training-id" class="training">
       <h2 class="training__title">Тренировки</h2>

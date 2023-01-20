@@ -19,14 +19,11 @@
 
 @media screen and (max-width: 1023px) {
   .highway__description {
-    max-width: calc(100% - 120px);
-    width: 100%;
+    max-width: 100%;
 
-    position: absolute;
-    bottom: 40px;
-    left: 60px;
+    order: 2;
 
-    margin: 0;
+    margin: 40px 0 0;
   }
 }
 
@@ -43,7 +40,5 @@
 
     font-size: 12px;
     line-height: 18px;
-
-    left: 18px;
   }
 }

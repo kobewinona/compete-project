@@ -1,0 +1,16 @@
+.cycles__slider {
+  display: none;
+  }
+
+
+
+@media screen and (max-width: 675px) {
+.cycles__slider {
+padding: 0;
+
+display: flex;
+justify-content: center;
+gap: 5px;
+margin: 20px 0 0 0;
+}
+}

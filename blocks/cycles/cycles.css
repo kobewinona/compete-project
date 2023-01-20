@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1023px) {
   .cycles {
-    padding: 80px 60px 64px;
+    padding: 80px 60px 40px;
   }
 
   .cycles::after {
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 465px) {
   .cycles {
-    padding: 80px 18px 64px;
+    padding: 80px 18px 40px;
   }
 
   .cycles::after {
