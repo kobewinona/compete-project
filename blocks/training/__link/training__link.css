@@ -21,3 +21,11 @@
   -ms-transition: .2s ease-in;
   -o-transition: .2s ease-in;
 }
+
+
+@media screen and (max-width: 465px) {
+  .training__link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

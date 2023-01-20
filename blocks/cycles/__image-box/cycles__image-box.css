@@ -1,8 +1,5 @@
 .cycles__image-box {
-  background-color:#f4f4f4;
-
   margin: 0;
-  border: 20px solid #f4f4f4;
   border-radius: 20px;
 }
 
@@ -12,10 +9,12 @@
     width: 100%;
     max-width: 100%;
     aspect-ratio: 284 / 306;
-
+    
+    background-color:#f4f4f4;
+    border: 20px solid #f4f4f4;
+    border-radius: 20px;
     margin: 0;
   }
-
   .cycles__image-box:not(:nth-of-type(1)) {
     display: none;
   }

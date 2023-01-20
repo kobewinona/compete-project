@@ -6,9 +6,12 @@
   position: relative;
 
   margin-left: 6px;
+
+  color: #FFFFFF;
 }
 
-@media screen and (max-width: 1023px) {
+
+@media screen and (max-width: 675px) {
   .cycles__image-caption {
     color: #151515;
     text-align: center;

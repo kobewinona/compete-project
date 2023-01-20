@@ -43,6 +43,6 @@
 
 @media screen and (max-width: 465px) {
   .lead {
-    padding: 0 18px;
+    padding: 0 18px 40px;
   }
 }
