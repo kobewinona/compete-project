@@ -2,6 +2,7 @@
 @import url('../fonts/Inter\ Web/inter.css');
 
 /* Page */
+@import url('../blocks/dom/dom.css');
 @import url('../blocks/page/page.css');
 
 /* Header */
@@ -75,7 +76,3 @@
 @import url('../blocks/footer/__subscribtion/footer__subscription.css');
 @import url('../blocks/footer/__email/footer__email.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
-html {
-  scroll-behavior: smooth;
-}
