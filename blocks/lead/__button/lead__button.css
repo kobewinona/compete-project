@@ -39,7 +39,7 @@
   -o-transition: .3s ease-out;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 930px) {
   .lead__button {
     width: 100%;
     font-size: 13px;

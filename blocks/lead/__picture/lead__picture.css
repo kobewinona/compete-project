@@ -27,12 +27,6 @@
   }
 }
 
-@media screen and (max-width: 1130px) {
-  .lead__picture {
-    top: 520px;
-  }
-}
-
 @media screen and (max-width: 615px) {
   .lead__picture {
     max-width: 284px;
