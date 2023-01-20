@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html class="dom" lang="ru">
+<html class="html" lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compete-project</title>
-  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="stylesheet" href="pages/index.css">
-  <link rel="stylesheet" href="style.css">
 </head>
 <body class="page">
   <header class="header">
@@ -18,7 +17,7 @@
         <li><a class="header__link" href="#training-id">Тренировки</a></li>
       </ul>
     </nav>
-    <img class="header__burger" src="images/burger.svg" alt="Меню бургер">
+    <img class="header__burger" src="images/header__burger.svg" alt="Меню бургер">
   </header>
   <main class="content">
     <section class="lead">
@@ -31,7 +30,7 @@
       <p class="lead__picture-caption">Cannondale Systemsix</p>
       <div class="lead__illustration"></div>
       <div class="lead__picture-container">
-        <img class="lead__picture" src="images/lead-bike.webp" alt="Фотография модели Cannondale Systemsix">
+        <img class="lead__picture" src="images/lead__picture.webp" alt="Фотография модели Cannondale Systemsix">
       </div>
     </section>
     <section class="merckx">
@@ -56,8 +55,8 @@
           alt="Фотография велосипедиста путешествующего по грунтовой дороге в лесу">
       </div>
       <div class="highway__buttons">
-        <button class="highway__button-left" type="button"></button>
-        <button class="highway__button-right" type="button"></button>
+        <button class="highway__button-left" type="button" aria-label="Назад"></button>
+        <button class="highway__button-right" type="button" aria-lable="Вперед"></button>
       </div>
     </section>
     <section id="cycles-id" class="cycles">
@@ -114,7 +113,7 @@
   <footer class="footer">
     <div class="footer__container">
       <h2 class="footer__title">Подпишитесь на рассылку —</h2>
-      <form class="footer__subscription" action="" method="get">
+      <form class="footer__subscription" method="get">
         <input class="footer__email" type="email" name="email" placeholder="Ваш e-mail">
       </form>
       <p class="footer__copyright">&copy; БЭМ на диване</p>
