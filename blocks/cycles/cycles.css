@@ -1,4 +1,5 @@
 .cycles {
+  position: relative;
   max-width: 1200px;
 
   margin: 0 auto;
@@ -11,13 +12,34 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .cycles {
-    padding: 60px 60px 60px;
+    padding: 80px 60px 64px;
   }
+
+  .cycles::after {
+    content: "";
+    width: calc(100% - 120px);
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    top: 40px;
+    left: 60px;
 }
+}
+
 @media screen and (max-width: 465px) {
   .cycles {
-    padding: 40px 18px 104px;
+    padding: 80px 18px 64px;
   }
+
+  .cycles::after {
+    content: "";
+    width: calc(100% - 36px);
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    top: 40px;
+    left: 18px;
+}
 }

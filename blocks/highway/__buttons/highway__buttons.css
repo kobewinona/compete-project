@@ -10,7 +10,7 @@
 @media screen and (max-width: 1023px) {
   .highway__buttons {
     position: absolute;
-    top: 65px;
+    top: 85px;
     right: 60px;
   }
 }
@@ -18,7 +18,7 @@
 @media screen and (max-width: 465px) {
   .highway__buttons {
     position: absolute;
-    top: 47px;
+    top: 87px;
     right: 18px;
     gap: 10px;
   }

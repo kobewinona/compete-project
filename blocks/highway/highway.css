@@ -19,12 +19,32 @@
 
 @media screen and (max-width: 1023px) {
   .highway {
-    padding: 60px 60px 150px;
+    padding: 80px 60px 170px;
   }
+
+  .highway::after {
+    content: "";
+    width: calc(100% - 120px);
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
 }
 
 @media screen and (max-width: 465px) {
   .highway {
-    padding: 40px 18px 210px;
+    padding: 80px 18px 170px;
   }
+
+  .highway::after {
+    content: "";
+    width: calc(100% - 36px);
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    top: 40px;
+    left: 18px;
+}
 }

@@ -11,20 +11,6 @@
   opacity: .7;
 }
 
-@media screen and (max-width: 1023px) {
-  .merckx__quote-author-subline {
-    font-size: 10px;
-    line-height: 16px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .merckx__quote-author-subline {
-    font-size: 16px;
-    line-height: 28px;
-  }
-}
-
 @media screen and (max-width: 465px) {
   .merckx__quote-author-subline {
     font-size: 10px;
