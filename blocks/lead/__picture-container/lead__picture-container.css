@@ -21,9 +21,9 @@
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1023px) {
   .lead__picture-container {
-    min-height: 777px;
+    min-height: 877px;
     left: 60px;
   }
 }

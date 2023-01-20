@@ -29,9 +29,17 @@
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1130px) {
   .lead {
-    max-width: 930px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    max-width: 1023px;
+
+    overflow: visible;
 
     display: flex;
     flex-direction: column;
