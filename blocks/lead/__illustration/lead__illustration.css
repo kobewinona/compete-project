@@ -1,7 +1,7 @@
 .lead__illustration {
   width: 100%;
   max-width: 610px;
-  min-width: 580px;
+  min-width: 520px;
   aspect-ratio: 305 / 418;
 
   background-image: url('../../../images/lead__illustration.webp');

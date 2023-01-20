@@ -11,13 +11,13 @@
 
 @media screen and (max-width: 1280px) {
   .lead__picture-container {
-    min-height: 747px;
+    min-height: 727px;
   }
 }
 
 @media screen and (max-width: 1070px) {
   .lead__picture-container {
-    left: 48.75%;
+    left: 44.75%;
   }
 }
 
