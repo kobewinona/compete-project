@@ -2,5 +2,23 @@
   max-width: 1200px;
 
   margin: 0 auto;
-  padding: 80px 120px 60px 120px;
+  padding: 80px 80px 60px;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__container {
+    padding: 80px 60px 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .footer__container {
+    padding: 60px 18px 25px;
+  }
 }

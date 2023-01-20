@@ -2,8 +2,8 @@
   margin: 0;
 
   font-weight: 700;
-  font-size: 55px;
-  line-height: 60px;
+  font-size: clamp(32px, 5vw, 55px);
+  line-height: clamp(40px, 6vw, 60px);
   letter-spacing: -0.5px;
 }
 
