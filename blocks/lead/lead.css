@@ -4,7 +4,7 @@
   box-sizing: border-box;
 
   display: grid;
-  grid-template-columns: minmax(100px, 460px) minmax(590px, 610px);
+  grid-template-columns: minmax(360px, 460px) minmax(580px, 610px);
   grid-template-rows: 200px auto 50px auto;
   column-gap: 250px;
 
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 1280px) {
   .lead {
-    grid-template-columns: minmax(100px, 400px) minmax(100px, 610px);
+    column-gap: 10%;
 
     padding-left: 80px;
   }

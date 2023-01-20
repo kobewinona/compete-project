@@ -1,11 +1,12 @@
 .merckx {
-  position: relative;
-  max-width: 1440px;
   width: 100%;
+  max-width: 1440px;
+  box-sizing:border-box;
+
+  position: relative;
 
   margin: 0 auto;
   padding: 120px 120px 60px;
-  box-sizing:border-box;
 }
 
 @media screen and (max-width: 1280px) {
@@ -27,7 +28,7 @@
     position: absolute;
     top: 40px;
     left: 60px;
-}
+  }
 }
 
 @media screen and (max-width: 465px) {
@@ -43,5 +44,5 @@
     position: absolute;
     top: 40px;
     left: 18px;
-}
+  }
 }

@@ -1,25 +1,21 @@
 .cycles__image {
-  padding: 0;
-  margin: 0 0 20px 0;
-
-  /* border: 20px solid #f4f4f4;
-  border-radius: 20px;
-  background-color:#f4f4f4; */
-
-  max-width: 380px;
   width: 100%;
-
+  max-width: 380px;
   aspect-ratio: 1 / 1;
+
+  box-sizing: border-box;
   object-fit: contain;
-  box-sizing: border-box
+
+  margin: 0 0 20px 0;
+  padding: 0;
 }
 
 
 @media screen and (max-width: 675px) {
   .cycles__image {
-    max-width: 255%;
     width: 100%;
-    margin: 0;
- 
-  }
+    max-width: 255%;
 
+    margin: 0;
+  }
+}

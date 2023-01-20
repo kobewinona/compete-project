@@ -1,16 +1,14 @@
 .cycles__slider {
   display: none;
-  }
-
-
+}
 
 @media screen and (max-width: 675px) {
-.cycles__slider {
-padding: 0;
+  .cycles__slider {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 
-display: flex;
-justify-content: center;
-gap: 5px;
-margin: 20px 0 0 0;
-}
+    margin: 20px 0 0 0;
+    padding: 0;
+    }
 }

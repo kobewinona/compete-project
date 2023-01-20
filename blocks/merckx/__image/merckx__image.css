@@ -1,6 +1,7 @@
 .merckx__image {
-  max-width: 100%;
   width: 100%;
-  object-fit: contain;
+  max-width: 100%;
   aspect-ratio: 65 / 46;
+
+  object-fit: contain;
 }

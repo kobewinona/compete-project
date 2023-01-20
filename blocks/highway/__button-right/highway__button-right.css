@@ -4,14 +4,12 @@
 
   background-image: url(../../../images/highway__buttom-right.svg);
   background-size: cover;
+  background-color: transparent;
+
+  cursor: pointer;
 
   padding: 0;
   border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer;
-
 
   transition: .3s ease-out;
   -webkit-transition: .3s ease-out;

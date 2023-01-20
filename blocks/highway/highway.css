@@ -1,14 +1,13 @@
 .highway {
-  position: relative;
-
-  max-width: 1440px;
   width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  position: relative;
 
   margin: 0 auto;
   padding: 60px 0 60px 120px;
-
-  box-sizing: border-box;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 1280px) {
@@ -19,9 +18,10 @@
 
 @media screen and (max-width: 1023px) {
   .highway {
-    padding: 80px 60px 40px;
     display: flex;
     flex-direction: column;
+
+    padding: 80px 60px 40px;
   }
 
   .highway::after {
@@ -32,7 +32,7 @@
     position: absolute;
     top: 40px;
     left: 60px;
-}
+  }
 }
 
 @media screen and (max-width: 465px) {
@@ -48,5 +48,5 @@
     position: absolute;
     top: 40px;
     left: 18px;
-}
+  }
 }

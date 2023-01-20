@@ -1,26 +1,31 @@
 .cycles__image-caption {
-  position: relative;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+
+  position: relative;
 
   margin-left: 6px;
 }
 
 @media screen and (max-width: 1023px) {
   .cycles__image-caption {
-    text-align: center;
-    margin: 0;
-    transform: translate(0, 5px);
-
     color: #151515;
+    text-align: center;
+
+    margin: 0;
+
+    transform: translate(0, 5px);
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    -ms-transform: translate(0, 5px);
+    -o-transform: translate(0, 5px);
   }
 }
 
  @media screen and (max-width: 425px) {
   .cycles__image-caption {
-  
     font-size: 14px;
     line-height: 18px;
   }
-  }
+}

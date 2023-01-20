@@ -1,6 +1,7 @@
 .cycles {
-  position: relative;
   max-width: 1200px;
+
+  position: relative;
 
   margin: 0 auto;
   padding: 60px 120px;
@@ -25,7 +26,7 @@
     position: absolute;
     top: 40px;
     left: 60px;
-}
+  }
 }
 
 @media screen and (max-width: 465px) {
@@ -41,5 +42,5 @@
     position: absolute;
     top: 40px;
     left: 18px;
-}
+  }
 }
