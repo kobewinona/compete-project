@@ -3,17 +3,18 @@
   border-radius: 20px;
 }
 
-
 @media screen and (max-width: 675px) {
   .cycles__image-box {
     width: 100%;
     max-width: 100%;
     aspect-ratio: 284 / 306;
-    
-    background-color:#f4f4f4;
+
+    background-color: #f4f4f4;
     border: 20px solid #f4f4f4;
     border-radius: 20px;
     margin: 0;
+
+    box-shadow: 0px 20px 140px rgba(0, 0, 0, 0.06);
   }
   .cycles__image-box:not(:nth-of-type(1)) {
     display: none;

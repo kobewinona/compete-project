@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="html" lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="stylesheet" href="pages/index.css">
 </head>
+
 <body class="page">
   <header class="header">
     <nav class="header__menu">
@@ -55,8 +57,8 @@
           alt="Фотография велосипедиста путешествующего по грунтовой дороге в лесу">
       </div>
       <div class="highway__buttons">
-        <button class="highway__button-left" type="button" aria-label="Назад"></button>
-        <button class="highway__button-right" type="button" aria-lable="Вперед"></button>
+        <button class="highway__button highway__button_left" type="button" aria-label="Назад"></button>
+        <button class="highway__button highway__button_right" type="button" aria-lable="Вперед"></button>
       </div>
     </section>
     <section id="cycles-id" class="cycles">
@@ -77,18 +79,25 @@
       </form>
       <div class="cycles__images">
         <figure class="cycles__image-box cycles__slider-dots">
-          <img class="cycles__image" src="./images/cycles__image-cervelo.webp"
-            alt="Картинка велосипеда Cervelo Caledonia-5">
-          <figcaption class="cycles__image-caption">Cervelo Caledonia-5</figcaption>
+          <a class="cycles__image-link" href="#">
+            <img class="cycles__image" src="./images/cycles__image-cervelo.webp"
+              alt="Картинка велосипеда Cervelo Caledonia-5">
+            <figcaption class="cycles__image-caption">Cervelo Caledonia&#8209;5</figcaption>
+          </a>
         </figure>
         <figure class="cycles__image-box">
-          <img class="cycles__image" src="./images/cycles__image-cannondale.webp"
-            alt="Картинка велосипеда Cannondale Systemsix Himod">
-          <figcaption class="cycles__image-caption">Cannondale Systemsix Himod</figcaption>
+          <a class="cycles__image-link" href="#">
+            <img class="cycles__image" src="./images/cycles__image-cannondale.webp"
+              alt="Картинка велосипеда Cannondale Systemsix Himod">
+            <figcaption class="cycles__image-caption">Cannondale Systemsix Himod</figcaption>
+          </a>
         </figure>
         <figure class="cycles__image-box">
-          <img class="cycles__image" src="./images/cycles__image-trek.webp" alt="Картинка велосипеда Trek Domane SL-7">
-          <figcaption class="cycles__image-caption">Trek Domane SL-7</figcaption>
+          <a class="cycles__image-link" href="#">
+            <img class="cycles__image" src="./images/cycles__image-trek.webp"
+              alt="Картинка велосипеда Trek Domane SL-7">
+            <figcaption class="cycles__image-caption">Trek Domane SL&#8209;7</figcaption>
+          </a>
         </figure>
       </div>
       <ul class="cycles__slider">
@@ -120,4 +129,5 @@
     </div>
   </footer>
 </body>
+
 </html>

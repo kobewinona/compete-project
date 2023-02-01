@@ -3,13 +3,14 @@
   font-size: 18px;
   line-height: 22px;
 
+  text-align: center;
+
   position: relative;
 
-  margin-left: 6px;
+  margin: 20px 0 0 6px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 @media screen and (max-width: 675px) {
   .cycles__image-caption {
@@ -26,7 +27,7 @@
   }
 }
 
- @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .cycles__image-caption {
     font-size: 14px;
     line-height: 18px;

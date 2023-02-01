@@ -9,10 +9,10 @@
   border: 20px solid #f4f4f4;
   border-radius: 20px;
 
-  margin: 0 0 20px 0;
   padding: 0;
-}
 
+  box-shadow: 0px 20px 140px rgba(0, 0, 0, 0.06);
+}
 
 @media screen and (max-width: 675px) {
   .cycles__image {
@@ -22,5 +22,7 @@
     border: none;
 
     margin: 0;
+
+    box-shadow: none;
   }
 }
