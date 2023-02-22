@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 460px;
 
-  color: rgba(229, 229, 229, 0.7);
+  color: rgba(229, 229, 229, .7);
   font-weight: 400;
   font-size: clamp(12px, 3vw, 18px);
   line-height: clamp(18px, 5vw, 28px);

@@ -10,11 +10,12 @@
     aspect-ratio: 284 / 306;
 
     background-color: #f4f4f4;
+
+    margin: 0;
     border: 20px solid #f4f4f4;
     border-radius: 20px;
-    margin: 0;
 
-    box-shadow: 0px 20px 140px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 20px 140px rgba(0, 0, 0, .6);
   }
   .cycles__image-box:not(:nth-of-type(1)) {
     display: none;
