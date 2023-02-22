@@ -2,7 +2,7 @@
   width: 50px;
   height: 50px;
 
-  background-image: url(../../../images/highway__button-left.svg);
+  background-image: url('../../../images/highway__button-left.svg');
   background-size: cover;
   background-color: transparent;
 
@@ -11,21 +11,21 @@
   padding: 0;
   border: none;
 
-  transition: .3s ease-out;
-  -webkit-transition: .3s ease-out;
-  -moz-transition: .3s ease-out;
-  -ms-transition: .3s ease-out;
-  -o-transition: .3s ease-out;
+  transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -ms-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
 }
 
 .highway__button:hover {
   opacity: .6;
   
-  transition: .2s ease-in;
-  -webkit-transition: .2s ease-in;
-  -moz-transition: .2s ease-in;
-  -ms-transition: .2s ease-in;
-  -o-transition: .2s ease-in;
+  transition: opacity .2s ease-in;
+  -webkit-transition: opacity .2s ease-in;
+  -moz-transition: opacity .2s ease-in;
+  -ms-transition: opacity .2s ease-in;
+  -o-transition: opacity .2s ease-in;
 }
 
 @media screen and (max-width: 465px) {

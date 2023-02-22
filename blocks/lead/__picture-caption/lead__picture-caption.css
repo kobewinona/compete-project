@@ -11,7 +11,7 @@
 }
 
 .lead__picture-caption::after {
-  content: "";
+  content: '';
 
   width: 132px;
   height: 2px;

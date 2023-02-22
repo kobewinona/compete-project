@@ -19,7 +19,7 @@
   }
 
   .cycles::after {
-    content: "";
+    content: '';
     width: calc(100% - 120px);
     height: 1px;
     background: #707070;
@@ -35,7 +35,7 @@
   }
 
   .cycles::after {
-    content: "";
+    content: '';
     width: calc(100% - 36px);
     height: 1px;
     background: #707070;
