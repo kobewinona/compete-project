@@ -39,3 +39,7 @@ This experience taught us a lot about teamwork, communication, and version contr
 Throughout the project, we learned how important it is to communicate effectively and work collaboratively. By working on this project, we were able to identify our individual strengths and weaknesses and find ways to complement each other's skills. This not only improved our workflow but also made the experience more enjoyable.
 
 When it came to `git`, we learned the importance of proper version control and how it can make or break a project. We made sure to communicate any changes we made to the codebase and to review each other's work before merging. This helped us avoid any potential conflicts and ensured that our code was always up-to-date.
+
+---
+
+&hearts; thanks to yandex practicum team
