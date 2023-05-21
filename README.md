@@ -16,7 +16,7 @@
 ## contents
 
 - [about this project](#about-this-project)
-- [what we learnt doing this project](#what-we-learned-doing-this-project)
+- [what we learned doing this project](#what-we-learned-doing-this-project)
 
 ## about this project
 
