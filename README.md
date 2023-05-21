@@ -16,7 +16,7 @@
 ## contents
 
 - [about this project](#about-this-project)
-- [what we've learnt doing this project](#what-weve-learnt-doing-this-project)
+- [what we learnt doing this project](#what-we-learned-doing-this-project)
 
 ## about this project
 
@@ -34,7 +34,7 @@ In the end, we were able to successfully complete all the goals set for the proj
 
 This experience taught us a lot about teamwork, communication, and version control. We are grateful for the opportunity to work together and for the lessons we learned along the way.
 
-## what we've learnt doing this project
+## what we learned doing this project
 
 Throughout the project, we learned how important it is to communicate effectively and work collaboratively. By working on this project, we were able to identify our individual strengths and weaknesses and find ways to complement each other's skills. This not only improved our workflow but also made the experience more enjoyable.
 
